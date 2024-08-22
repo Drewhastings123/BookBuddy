@@ -1,0 +1,126 @@
+#root {
+  background-color: #907f9f;
+  background-image: url("./assets/argyle.png");
+}
+html body {
+  font-family: Georgia, serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  background-color: #907f9f;
+  background-image: url("./assets/argyle.png");
+}
+
+.playwrite-au-nsw-bodyLibrary {
+  font-family: "Playwrite AU NSW", cursive;
+  font-optical-sizing: auto;
+  font-weight: 48;
+  font-style: normal;
+}
+
+.oswald-bodyLibrary {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.allBooks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  margin-top: 5px;
+}
+#reserve {
+  margin-left: 5px;
+}
+.bookImg {
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
+}
+.bookCard {
+  margin: 10px;
+  border: 2px solid #ccc;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #156064;
+  color: #fffbfc;
+}
+.singleBookCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: #156064;
+  color: #fffbfc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-item {
+  padding: 5px;
+}
+.bookCard:hover {
+  transform: translateY(-5px) !important;
+}
+.break {
+  height: 60px;
+}
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #ccc;
+  width: 50%;
+}
+#filterId {
+  width: 50px !important;
+  border: solid #156064;
+}
+.centerLoginCard {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.registerCard {
+ 
+  border: 5px solid #ccc;
+
+}
+.regForm{
+  margin: 5px;
+}
+@media only screen and (max-width: 600px){
+  .bookImg{
+    width: 100px;
+  height: 150px;
+  margin-top: 5px;
+  }
+  .bookCard {
+    margin: 10px;
+    border: 2px solid #ccc;
+    width: 125px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #156064;
+    color: #fffbfc;
+  }
+}
